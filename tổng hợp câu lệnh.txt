@@ -1,0 +1,22 @@
+1.Tạo bảng :
+namecolumn datatype,
+
+CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+    column3 datatype,
+   ....
+
+2.Tạo bảng từ bảng có sẵn :
+CREATE TABLE new_table_name AS
+    SELECT column1, column2,...
+    FROM existing_table_name
+    WHERE ....;
+
+3.Xóa bảng : 
+DROP TABLE name_table;
+
+4.Xóa data trong bảng : 
+TRANCATE TABLE name_table;
+
+
