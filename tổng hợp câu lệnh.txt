@@ -19,4 +19,6 @@ DROP TABLE name_table;
 4.Xóa data trong bảng : 
 TRANCATE TABLE name_table;
 
+5.Chỉnh sửa table : ALTER TABLE
+https://www.w3schools.com/sql/sql_alter.asp
 
