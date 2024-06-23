@@ -22,3 +22,33 @@ TRANCATE TABLE name_table;
 5.Chỉnh sửa table : ALTER TABLE
 https://www.w3schools.com/sql/sql_alter.asp
 
+6.Thêm data vào table
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+
+SELECT * FROM table_name;( full table )
+
+7.WHERE clause :- mệnh đề điều kiện sử dụng trong select , delete , update 
+                - dùng and,or,not,is null,is not null khi dùng nhiều điều kiện : https://www.w3schools.com/mysql/mysql_and_or.asp
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+https://www.w3schools.com/mysql/mysql_where.asp
+
+- like : tìm kiếm pattern 
+  https://www.w3schools.com/mysql/mysql_like.asp
+8. ORDER BY : select table khi đã sắp xếp tăng/giảm ( asc/desc)
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC|DESC;
+
+9.update data trong table :
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+10.delete , limit 
+
+11. union : kết hợp attribute từ nhiều bảng
+https://www.w3schools.com/mysql/mysql_union.asp
+
